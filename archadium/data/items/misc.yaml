@@ -1,0 +1,29 @@
+# holds all the misc items in the game
+misc:
+  - id: rope
+    name: Rope
+    description: may be good for something or other.
+    item_type: misc
+    value: 10
+    stackable: true
+
+  - id: torch
+    name: Torch
+    description: may be good for something or other.
+    item_type: misc
+    value: 10
+    stackable: true
+
+  - id: lantern
+    name: Lantern
+    description: may be good for something or other.
+    item_type: misc
+    value: 10
+    stackable: true
+
+  - id: knife
+    name: Knife
+    description: may be good for something or other.
+    item_type: misc
+    value: 10
+    stackable: true

@@ -1,0 +1,51 @@
+# holds all the small enemies in the game
+small-enemies:
+  - id: rat
+    name: Rat
+    description: A small, scrawny rat.
+    hp: 10
+    max_hp: 10
+    attack: 5
+    defense: 2
+    xp_reward: 10
+    gold_reward: 5
+
+  - id: snake
+    name: Snake
+    description: A small, scrawny snake.
+    hp: 15
+    max_hp: 15
+    attack: 7
+    defense: 3
+    xp_reward: 15
+    gold_reward: 7
+
+  - id: spider
+    name: Spider
+    description: A small, scrawny spider.
+    hp: 20
+    max_hp: 20
+    attack: 10
+    defense: 4
+    xp_reward: 20
+    gold_reward: 10
+
+  - id: bat
+    name: Bat
+    description: A small, scrawny bat.
+    hp: 25
+    max_hp: 25
+    attack: 12
+    defense: 5
+    xp_reward: 25
+    gold_reward: 12
+
+  - id: goblin
+    name: Goblin
+    description: A small, scrawny goblin.
+    hp: 30
+    max_hp: 30
+    attack: 15
+    defense: 6
+    xp_reward: 30
+    gold_reward: 15

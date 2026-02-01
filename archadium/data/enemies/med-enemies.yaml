@@ -1,0 +1,31 @@
+# holds all the medium enemies in the game
+medium-enemies:
+  - id: wolf
+    name: Wolf
+    description: A large, ferocious wolf.
+    hp: 30
+    max_hp: 30
+    attack: 10
+    defense: 5
+    xp_reward: 30
+    gold_reward: 15
+  
+  - id: bear
+    name: Bear
+    description: A large, ferocious bear.
+    hp: 40
+    max_hp: 40
+    attack: 15
+    defense: 7
+    xp_reward: 40
+    gold_reward: 20
+  
+  - id: wolf spider
+    name: Wolf Spider
+    description: A large, ferocious wolf spider.
+    hp: 50
+    max_hp: 50
+    attack: 20
+    defense: 8
+    xp_reward: 50
+    gold_reward: 25

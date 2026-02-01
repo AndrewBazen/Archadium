@@ -1,0 +1,32 @@
+# holds all the bosses in the game
+bosses:
+  - id: dragon
+    name: Dragon
+    description: A large, ferocious dragon.
+    hp: 300
+    max_hp: 300
+    attack: 20
+    defense: 10
+    xp_reward: 100
+    gold_reward: 50
+    
+  - id: titan
+    name: Titan
+    description: A large, ferocious titan.
+    hp: 250
+    max_hp: 250
+    attack: 20
+    defense: 10
+    xp_reward: 100
+    gold_reward: 50
+
+  - id: kraken
+    name: Kraken
+    description: A large, ferocious kraken.
+    hp: 200
+    max_hp: 200
+    attack: 20
+    defense: 10
+    xp_reward: 100
+    gold_reward: 50
+    

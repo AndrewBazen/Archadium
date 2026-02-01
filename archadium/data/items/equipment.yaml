@@ -1,0 +1,33 @@
+# holds all the equipment in the game
+equipment:
+  - id: leather_armor
+    name: Leather Armor
+    description: A leather armor for protecting yourself.
+    item_type: armor
+    defense_bonus: 5
+    value: 100
+    stackable: false
+    
+  - id: iron_armor
+    name: Iron Armor
+    description: A iron armor for protecting yourself.
+    item_type: armor
+    defense_bonus: 10
+    value: 200
+    stackable: false
+
+  - id: leather_helmet
+    name: Leather Helmet
+    description: A leather helmet for protecting your head.
+    item_type: headgear
+    defense_bonus: 5
+    value: 100
+    stackable: false
+
+  - id: iron_helmet
+    name: Iron Helmet
+    description: A iron helmet for protecting your head.
+    item_type: headgear
+    defense_bonus: 10
+    value: 200
+    stackable: false

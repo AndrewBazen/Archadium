@@ -32,6 +32,7 @@ class Item:
             description=data["description"],
             item_type=data.get("type", "misc"),
             attack_bonus=data.get("attack_bonus", 0),
+            attack_type=data.get("attack_type", None),
             defense_bonus=data.get("defense_bonus", 0),
             heal_amount=data.get("heal_amount", 0),
             value=data.get("value", 0),

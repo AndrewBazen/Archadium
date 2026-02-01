@@ -1,0 +1,22 @@
+# holds all the key items in the game
+key-items:
+  - id: map
+    name: Map
+    description: A map of the game world.
+    item_type: key_item
+    value: 100
+    stackable: false
+
+  - id: journal
+    name: Journal
+    description: A journal for recording your adventures.
+    item_type: key_item
+    value: 100
+    stackable: false
+
+  - id: artifact
+    name: Artifact
+    description: A strange artifact that seems to have some sort of power.
+    item_type: key_item
+    value: 100
+    stackable: false

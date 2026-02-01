@@ -1,0 +1,39 @@
+# holds all the weapons in the game
+weapons:
+  - id: rusty_sword
+    name: Sword
+    description: A sharp blade for cutting and slicing.
+    item_type: weapon
+    attack_bonus: 5
+    attack_type: melee
+    value: 100
+    stackable: false
+
+  - id: iron_sword
+    name: Iron Sword
+    description: A sharp blade for cutting and slicing.
+    item_type: weapon
+    attack_bonus: 10
+    attack_type: melee
+    value: 200
+    stackable: false
+
+  - id: axe
+    name: Axe
+    description: A sharp blade for cutting and slicing.
+    item_type: weapon
+    attack_bonus: 5
+    attack_type: melee
+    value: 100
+    stackable: false
+
+  - id: bow
+    name: Bow
+    description: A bow for shooting arrows.
+    item_type: weapon
+    attack_bonus: 5
+    attack_type: ranged
+    value: 100
+    stackable: false
+
+ 
