@@ -5,7 +5,7 @@ from __future__ import annotations
 import random
 
 from archadium.combat.combat_ui import render_battle_status, render_enemy_art, show_combat_actions
-from archadium.combat.enemies import Enemy
+from archadium.entities.enemies import Enemy
 from archadium.display.console import console
 from archadium.display.effects import dramatic_pause, screen_shake, typewriter
 from archadium.display.ui import separator

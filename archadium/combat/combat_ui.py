@@ -2,8 +2,7 @@
 
 from rich.panel import Panel
 
-from archadium.combat.enemies import Enemy
-from archadium.display.ascii_art import render_art
+from archadium.entities.enemies import Enemy
 from archadium.display.console import console
 from archadium.display.ui import health_bar
 
@@ -32,7 +31,8 @@ def render_battle_status(
 def render_enemy_art(enemy: Enemy) -> None:
     """Display enemy ASCII art if available."""
     if enemy.ascii_art:
-        render_art(enemy.ascii_art, style="enemy.name", animate=False)
+        for line in enemy.ascii_art:
+            console.print(line, style="enemy.name")
 
 
 def show_combat_actions() -> None:

@@ -43,6 +43,30 @@ class Enemy:
             ascii_art=load_art(data['id']),
         )
 
+    @property
+    def is_alive(self) -> bool:
+        return self.hp > 0
+
+    def take_damage(self, amount: int) -> int:
+        actual = max(1, amount - self.defense)
+        self.hp = max(0, self.hp - actual)
+        return actual
+
+    def copy(self) -> Enemy:
+        """Return a fresh copy for spawning."""
+        return Enemy(
+            enemy_id=self.enemy_id,
+            name=self.name,
+            description=self.description,
+            hp=self.max_hp,
+            max_hp=self.max_hp,
+            attack=self.attack,
+            defense=self.defense,
+            xp_reward=self.xp_reward,
+            gold_reward=self.gold_reward,
+            ascii_art=self.ascii_art,
+        )
+
     def to_display_dict(self) -> dict:
         return {
             "name": self.name,
@@ -71,7 +95,10 @@ class EnemyRegistry:
                     self._enemies[enemy.enemy_id] = enemy
 
     def get(self, enemy_id: str) -> Enemy | None:
-        return self._enemies.get(enemy_id)
+        template = self._enemies.get(enemy_id)
+        if template:
+            return template.copy()
+        return None
 
     def find_by_name(self, name: str) -> Enemy | None:
         """Find an enemy by partial name match (case-insensitive)."""

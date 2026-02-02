@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from archadium.combat.battle import Battle
-from archadium.combat.enemies import EnemyRegistry
+from archadium.entities.enemies import EnemyRegistry
 from archadium.display.ansi import clear_screen
 from archadium.display.ascii_art import render_art
 from archadium.display.console import console
